@@ -507,6 +507,7 @@ div.cell3 button {
 
 
 .layout {
+  width: 90%;
   position: relative;
     box-sizing: border-box;
     display: grid;
