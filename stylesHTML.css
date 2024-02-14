@@ -5,6 +5,7 @@
 }
 body, html {
   height: 100%;
+  
 }
 .page {
   position: relative;
@@ -332,7 +333,6 @@ a {
 
 
 
-/* Style the buttons inside the tab */
 .tab #tabButton #tabButton1 #tabButton2 #tabButton3 #tabButton4 #closeButton {
   background-color: #ffffff;
   border: none;
@@ -344,15 +344,13 @@ a {
   background-position: -1;
 }
 
-/* Change background color of buttons on hover */
+
 .tab #tabButton:hover, #tabButton1:hover, #tabButton2:hover, #tabButton3:hover, #tabButton4:hover, #closeButton:hover {
   background-color: rgb(13, 29, 50);
   color: var(--color-offWhite);
 }
 
 
-
-/* Create an active/current tablink class */
 .tab #tabButton.active, #tabButton1.active, #tabButton2.active, #tabButton3.active, #tabButton4.active, #closeButton.active {
   background-color: rgba(75, 44, 44, 0.134);
 }
@@ -408,7 +406,7 @@ div.cell3 button {
 }
 
 
-/* Style the tab content */
+
 .tabcontent {
   display: grid;
   align-items: flex-end;
@@ -495,6 +493,7 @@ div.cell3 button {
 
 
 .layout {
+  width: 90%;
   position: relative;
   box-sizing: border-box;
   display: grid;
